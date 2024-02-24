@@ -1,0 +1,39 @@
+/* thi is a universal selector */
+/* *{
+    font-family:verdana;
+} */
+/* this is a element selector */
+p{
+    font-size: 14px;
+    font-family: Verdana;
+}
+/* this is pseudo selector */
+p:hover{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+/*  this is a element selector */
+body{
+    background-color: aqua;
+}
+
+/* this is a id selector */
+/*  this is how we use nested selector(inside one class) */
+#first>h2{
+    color: red;
+}
+
+/* This is a class selector */
+
+/* this is how nested selector works     */
+.sec, #third{
+    color: purple;
+    font-family: monospace;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bolder;
+    /* font-style: italic; */
+}

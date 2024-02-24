@@ -1,0 +1,23 @@
+/* we can also import this in css one line */
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+
+header{
+    font-family:"Protest Guerrilla", sans-serif;
+    font-size: normal;
+    font-weight: 200;
+    /* word-spacing: 3px; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline;
+    text-decoration-color: aqua ;
+    text-decoration-style:wavy; */
+
+    /* text-shadow: 2px 1px 7px red; */
+}
+.fill{
+    /* it will indent the line or give some space in starting word */
+    text-indent: 34px; 
+    letter-spacing: 1px ;
+    line-height: 34px;
+}

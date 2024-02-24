@@ -1,0 +1,27 @@
+*{
+    /* border: 2px solid red; */
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color: black;
+}
+ul{
+    border: 3px solid white;
+    color: white;
+    list-style-type: none;
+    text-align: end;
+    padding: 20px;
+}
+li{
+    padding-left: 20px;
+    display: inline;
+}
+li:hover{
+    color: aqua;
+    cursor: pointer;
+}

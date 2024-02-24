@@ -1,0 +1,43 @@
+.container{
+    width: 300px;
+    height: 600px;
+
+    /* border: 2px solid red; */
+    background-color: gainsboro;
+    margin: 100px;
+}
+.box{
+    width :100px;
+    height: 100px;
+    
+}
+.red{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: red;
+}
+.blue{
+    /*  now class blue is not the part of that parent div how its parent is html element */
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    background-color: blue;
+    z-index: 1;
+}
+.green{
+    top:0;
+    left: 0;
+    /* it will fix this div on particular position */
+    position: fixed;
+    background-color: green;
+}
+.purple{
+    position: sticky;
+    background-color: purple;
+    top: 50px;
+    left: 0px;
+}
+.space{
+    height: 300vh;
+}
